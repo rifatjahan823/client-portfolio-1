@@ -28,12 +28,11 @@ const Contact = () => {
                         <div className="col-md-4 col-12 order-2 order-md-1">
                             <div className='address'>
                                 <h5>ADDRESS</h5>
-                                <p>4th Floor, Plot No.22,</p>
-                                <p>145 Murphy Canyon Rd.</p>
-                                <p>San Diego CA 2028</p>
+                                <p>City centre road</p>
+                                <p>Olail,savar</p>
                                 <div className='my-4'>
-                                    <p><FaPhone className='address_icon' /> (060) 444 434 444</p>
-                                    <p> <BsFillEnvelopeFill className='address_icon' /> chat@simone.com</p>
+                                    <p><FaPhone className='address_icon' /> 01315916486</p>
+                                    <p> <BsFillEnvelopeFill className='address_icon' /> vrajon432@gmail.com</p>
                                 </div>
                                 <div>
                                     <h5>FOLLOW ME</h5>
@@ -57,7 +56,7 @@ const Contact = () => {
                                         </div>
                                         {/* -----------Email---------  */}
                                         <div className="input-group mb-3">
-                                            <span className="input-group-text" id="basic-addon1"><BsFillEnvelopeOpenFill /></span>
+                                            <span className="input-group-text" id="basic-addon1"><BsFillEnvelopeOpenFill /> </span>
                                             <input type="email" className="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2" name="email" required />
                                         </div>
                                         {/* ------Message----------- */}

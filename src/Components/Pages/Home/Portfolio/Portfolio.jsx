@@ -6,6 +6,7 @@ import project4 from '../../../Image/project-4.jpg';
 import project5 from '../../../Image/project-5.jpg';
 import project6 from '../../../Image/project-6.jpg';
 import project7 from '../../../Image/project-7.jpg';
+import { Link } from 'react-router-dom';
 import './Portfolio.css'
 
 const Portfolio = () => {
@@ -74,7 +75,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
-                   
+                    <Link to ="/allportfolio"><button className="btn form-btn mt-5 m-auto d-block" type="submit">load more</button></Link>
                 </div>
                 <div className='portfolio mt-5 d-block d-lg-none'>
                 <div className="row g-4 ">
@@ -89,7 +90,7 @@ const Portfolio = () => {
                         </div>
                         <div className="col-md-6 col-12">
                         <div className="portfilo_content mb-4">
-                                <img className='img-fluid' src={project1} alt="" />
+                                <img className='img-fluid' src={project4} alt="" />
                                 <div className='portfolio_category'>
                                     <h3>YouTube Video</h3>
                                     <p>Category</p>
@@ -98,7 +99,7 @@ const Portfolio = () => {
                         </div>
                         <div className="col-md-6 col-12">
                         <div className="portfilo_content mb-4">
-                                <img className='img-fluid' src={project1} alt="" />
+                                <img className='img-fluid' src={project2} alt="" />
                                 <div className='portfolio_category'>
                                     <h3>YouTube Video</h3>
                                     <p>Category</p>
@@ -107,7 +108,7 @@ const Portfolio = () => {
                         </div>
                         <div className="col-md-6 col-12">
                         <div className="portfilo_content mb-4">
-                                <img className='img-fluid' src={project1} alt="" />
+                                <img className='img-fluid' src={project7} alt="" />
                                 <div className='portfolio_category'>
                                     <h3>YouTube Video</h3>
                                     <p>Category</p>
@@ -116,7 +117,7 @@ const Portfolio = () => {
                         </div>
                         <div className="col-md-6 col-12">
                         <div className="portfilo_content mb-4">
-                                <img className='img-fluid' src={project1} alt="" />
+                                <img className='img-fluid' src={project3} alt="" />
                                 <div className='portfolio_category'>
                                     <h3>YouTube Video</h3>
                                     <p>Category</p>
@@ -125,7 +126,16 @@ const Portfolio = () => {
                         </div>
                         <div className="col-md-6 col-12">
                         <div className="portfilo_content mb-4">
-                                <img className='img-fluid' src={project1} alt="" />
+                                <img className='img-fluid' src={project6} alt="" />
+                                <div className='portfolio_category'>
+                                    <h3>YouTube Video</h3>
+                                    <p>Category</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-12">
+                        <div className="portfilo_content mb-4">
+                                <img className='img-fluid' src={project5} alt="" />
                                 <div className='portfolio_category'>
                                     <h3>YouTube Video</h3>
                                     <p>Category</p>

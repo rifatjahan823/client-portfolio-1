@@ -4,11 +4,13 @@ import { Typewriter } from 'react-simple-typewriter';
 import { BiChevronsDown } from "react-icons/bi";
 import './Hero.css';
 
+
 const Hero = () => {
     // ----fore type writer----------
     const handleDone = () => {
         console.log(`Done after 5 loops!`)
     }
+
     return (
         <div id="hero" className='hero_section'>
 
