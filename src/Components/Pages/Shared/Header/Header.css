@@ -11,3 +11,16 @@
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color:#20C997;
 }
+.header_icon{
+    font-size: 20px;
+    margin: 8px;
+    color: white;
+    transition: 0.6s;
+}
+.header_icon:hover{
+    color:#20C997;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 10px;
+    padding-left: 10px;
+}

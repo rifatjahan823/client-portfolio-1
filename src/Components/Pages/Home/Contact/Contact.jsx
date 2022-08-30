@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaFacebookSquare, FaBehanceSquare, FaPhone } from "react-icons/fa";
-import { BsLinkedin, BsFillEnvelopeFill } from "react-icons/bs";
+import { FaFacebookSquare, FaBehanceSquare, FaPhone ,FaTwitterSquare} from "react-icons/fa";
+import { BsLinkedin, BsFillEnvelopeFill, } from "react-icons/bs";
 import { BsFillPersonFill, BsFillChatSquareDotsFill, BsFillEnvelopeOpenFill } from "react-icons/bs";
 // import emailjs from 'emailjs-com';
 // import { toast } from 'react-toastify';
@@ -24,8 +24,8 @@ const Contact = () => {
                     <p >Get in Touch </p>
                 </div>
                 <div>
-                    <div className="row g-4">
-                        <div className="col-md-4 col-12">
+                    <div className="row g-4 align-items-center">
+                        <div className="col-md-4 col-12 order-2 order-md-1">
                             <div className='address'>
                                 <h5>ADDRESS</h5>
                                 <p>4th Floor, Plot No.22,</p>
@@ -41,11 +41,12 @@ const Contact = () => {
                                         <a href="#"> <FaFacebookSquare className='follow_icon' /></a>
                                         <a href="#"><BsLinkedin className='follow_icon' /></a>
                                         <a href="#"><FaBehanceSquare className='follow_icon' /></a>
+                                        <a href="#"><FaTwitterSquare className='follow_icon' /></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-8 col-12">
+                        <div className="col-md-8 col-12 order-1 order-md-2">
                             <div className='address'>
                                 <div className='contact-form text-center'>
                                     {/* -------Name------ */}
