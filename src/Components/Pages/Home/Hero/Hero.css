@@ -1,0 +1,85 @@
+.hero_section {
+    background-image: url("../../../Image/intro-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 0px;
+    position: relative;
+    z-index: 2;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.605);
+    z-index: -2;
+}
+
+.hero_section h2 {
+    font-weight: 500;
+    font-size: 1.75rem;
+}
+.hero_section h3 {
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+.hero_section p {
+    color: #dee3e4;
+    font-size: 22px;
+}
+
+.hero_section button {
+    color: #20c997;
+    background-color: transparent;
+    padding: 0.8rem 2.6rem;
+    font-weight: 500;
+    border: 2px solid #20c997;
+    transition: all 0.5s ease;
+    text-transform: capitalize;
+    font-size: 18px;
+    border-radius: 50px;
+}
+.hero_section button:hover{
+    background-color: #20c997;
+    color: white;
+}
+.animated{
+    position: absolute;
+   bottom: 5%;
+   left: 48%;
+   right: 48%;
+}
+.animated_icon{
+    color: white;
+    font-size: 35px;
+    animation-name: example;
+    position: relative;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  
+}
+@keyframes example {
+0% {
+    top: -25px;
+    opacity: 0;
+  }
+  100% {
+    top: 10px;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width:767px) {
+    .hero_section h3 {
+        font-size: 2.5rem;
+    }
+}
