@@ -22,56 +22,28 @@ const Portfolio = () => {
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="portfilo_content mb-4">
                                 <img className='img-fluid' src={project1} alt="" />
-                                <div className='portfolio_category'>
-                                    <h3>YouTube Video</h3>
-                                    <p>Category</p>
-                                </div>
                             </div>
                             <div className="portfilo_content">
                                 <img className='img-fluid' src={project4} alt="" />
-                                <div className='portfolio_category'>
-                                    <h3>YouTube Video</h3>
-                                    <p>Category</p>
-                                </div>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="portfilo_content mb-4">
                                 <img className='img-fluid' src={project2} alt="" />
-                                <div className='portfolio_category'>
-                                    <h3>YouTube Video</h3>
-                                    <p>Category</p>
-                                </div>
                             </div>
                             <div className="portfilo_content">
                                 <img className='img-fluid' src={project7} alt="" />
-                                <div className='portfolio_category'>
-                                    <h3>YouTube Video</h3>
-                                    <p>Category</p>
-                                </div>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="portfilo_content mb-4">
                                 <img className='img-fluid' src={project3} alt="" />
-                                <div className='portfolio_category'>
-                                    <h3>YouTube Video</h3>
-                                    <p>Category</p>
-                                </div>
                             </div>
                             <div className="portfilo_content mb-4">
                                 <img className='img-fluid' src={project6} alt="" />
-                                <div className='portfolio_category'>
-                                    <h3>YouTube Video</h3>
-                                    <p>Category</p>
-                                </div>
                             </div>
                             <div className="portfilo_content mb-4">
                                 <img className='img-fluid' src={project5} alt="" />
-                                <div className='portfolio_category'>
-                                    <h3>YouTube Video</h3>
-                                    <p>Category</p>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -82,64 +54,36 @@ const Portfolio = () => {
                         <div className="col-md-6 col-12">
                         <div className="portfilo_content mb-4">
                                 <img className='img-fluid' src={project1} alt="" />
-                                <div className='portfolio_category'>
-                                    <h3>YouTube Video</h3>
-                                    <p>Category</p>
-                                </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-12">
                         <div className="portfilo_content mb-4">
                                 <img className='img-fluid' src={project4} alt="" />
-                                <div className='portfolio_category'>
-                                    <h3>YouTube Video</h3>
-                                    <p>Category</p>
-                                </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-12">
                         <div className="portfilo_content mb-4">
                                 <img className='img-fluid' src={project2} alt="" />
-                                <div className='portfolio_category'>
-                                    <h3>YouTube Video</h3>
-                                    <p>Category</p>
-                                </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-12">
                         <div className="portfilo_content mb-4">
                                 <img className='img-fluid' src={project7} alt="" />
-                                <div className='portfolio_category'>
-                                    <h3>YouTube Video</h3>
-                                    <p>Category</p>
-                                </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-12">
                         <div className="portfilo_content mb-4">
                                 <img className='img-fluid' src={project3} alt="" />
-                                <div className='portfolio_category'>
-                                    <h3>YouTube Video</h3>
-                                    <p>Category</p>
-                                </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-12">
                         <div className="portfilo_content mb-4">
                                 <img className='img-fluid' src={project6} alt="" />
-                                <div className='portfolio_category'>
-                                    <h3>YouTube Video</h3>
-                                    <p>Category</p>
-                                </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-12">
                         <div className="portfilo_content mb-4">
                                 <img className='img-fluid' src={project5} alt="" />
-                                <div className='portfolio_category'>
-                                    <h3>YouTube Video</h3>
-                                    <p>Category</p>
-                                </div>
                             </div>
                         </div>
                     </div>

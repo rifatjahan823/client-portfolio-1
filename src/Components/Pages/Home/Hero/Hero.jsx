@@ -27,7 +27,7 @@ const Hero = () => {
                         delaySpeed={1000}
                         onLoopDone={handleDone}
                     /></h3>
-                    <p className='mt-4 mb-5'>based in Los Angeles, California.</p>
+                    <p className='mt-4 mb-5'>Savar,Dhaka.</p>
                     <button>Hire me</button>
                     <div className='animated'>
                         <a href='#about' ><BiChevronsDown  className='animated_icon'/></a>
