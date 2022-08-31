@@ -43,11 +43,11 @@ const Hero = () => {
                     },
                     modes: {
                         push: {
-                            quantity: 4,
+                            quantity: 3,
                         },
                         repulse: {
                             distance: 100,
-                            duration: 0.9,
+                            duration: 0.1,
                         },
                     },
                 },
@@ -59,7 +59,7 @@ const Hero = () => {
                         color: "#ffffff",
                         distance: 150,
                         enable: true,
-                        opacity: 0.5,
+                        opacity: 0.4,
                         width: 1,
                     },
                     collisions: {
@@ -72,7 +72,7 @@ const Hero = () => {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 6,
+                        speed: 4,
                         straight: false,
                     },
                     number: {
@@ -83,7 +83,7 @@ const Hero = () => {
                         value: 80,
                     },
                     opacity: {
-                        value: 0.5,
+                        value: 0.4,
                     },
                     shape: {
                         type: "circle",

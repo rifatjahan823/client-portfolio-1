@@ -1,6 +1,8 @@
 import React from 'react';
 import AnimatedNumbers from "react-animated-numbers";
-import profile from '../../../../Image/profile.png'
+import profile from '../../../../Image/profile.png';
+import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 import './About.css'
 
 const About = () => {
@@ -14,9 +16,12 @@ const About = () => {
                 <div className='about_content mt-5'>
                     <div className="row g-4 align-items-center">
                         <div className="col-lg-5 col-12">
+                        <Fade left>
                             <img src={ profile } alt="" />
+                            </Fade>
                         </div>
                         <div className="col-lg-7  col-12 text-center text-md-start">
+                        <Zoom>
                             <h2 >I'm <span style={{ color: '#20C997' }}>Raj sharkar ove</span> Graphics & Web Developer</h2>
                             <p className='mt-3'>I help you build brand for your business at an affordable price. Thousands of clients have procured exceptional results while working with our dedicated team. when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                             <p>Delivering work within time and budget which meets client’s requirements is our moto. Lorem Ipsum has been the industry's standard dummy text ever when an unknown printer took a galley. Lorem Ipsum has been the industry's standard dummy text ever when an unknown printer took a galley.</p>
@@ -24,6 +29,8 @@ const About = () => {
                                 <p className='border-bottom p-1'><span className='fw-bold'>Email:</span> <span style={{ color: '#20C997' }}>vrajon432@gmail.com</span></p>
                                 <p className='border-bottom p-1'><span className='fw-bold'>Age:</span> 28</p>
                                 <p><span className='fw-bold'>From:</span> Saver, Dhaka</p></div>
+                                </Zoom>
+
                         </div>
                     </div>
                 </div>
