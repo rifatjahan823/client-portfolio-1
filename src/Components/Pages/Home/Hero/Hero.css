@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Poppins:wght@400;700&family=Slabo+27px&display=swap');
 .hero_section {
     background-image: url("../../../Image/intro-bg.jpg");
     background-size: cover;
@@ -30,6 +31,8 @@
 .hero_section h3 {
     font-weight: 600;
     font-size: 4rem;
+    font-family: 'Slabo 27px', serif;
+    font-style: italic;
 }
 
 .hero_section p {
